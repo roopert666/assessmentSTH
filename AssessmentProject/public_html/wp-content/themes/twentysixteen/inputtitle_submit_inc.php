@@ -1,4 +1,7 @@
 <?php
+
+// add scripts and functions
+
 add_action('wp_enqueue_scripts', 'inputtitle_submit_scripts');
 add_action('wp_ajax_ajax-inputtitleSubmit', 'myajax_inputtitleSubmit_func');
 add_action('wp_ajax_ajax-searchSubmit', 'myajax_searchSubmit_func');
