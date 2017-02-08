@@ -1,5 +1,6 @@
 <?php
 
+//This section is the remote DisplayCleanup TEST
 // add scripts and functions
 
 add_action('wp_enqueue_scripts', 'inputtitle_submit_scripts');
